@@ -1,6 +1,6 @@
-简体中文 | [English](./README_en.md)
 
-# 生成式智能体（Generative Agents）深度汉化版
+
+# 生成式智能体（Generative Agents
 
 斯坦福AI小镇由斯坦福大学和谷歌于2023年8月开源，由25个智能体组成的虚拟世界，模拟了真实的人类生活。
 
