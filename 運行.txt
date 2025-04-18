@@ -1,0 +1,20 @@
+模擬環境
+conda activate generative_agents_cn
+
+运行虚拟小镇
+cd generative_agents
+python start.py --name five-ai --start "20240213-09:30" --step 10 --stride 10
+
+参數说明:
+name - 每次启动虚拟小镇，需要设定唯一的名称，用于事后回放。
+start - 虚拟小镇的起始时间。
+resume - 在运行结束或意外中断后，从上次的“断点”处，继续运行虚拟小镇。
+step - 在迭代多少步之后停止运行。
+stride - 每一步迭代在虚拟小镇中对应的时间（分钟）。假如设定--stride 10，虚拟小镇在迭代过程中的时间变化将会是 9:00，9:10，9:20 ...
+
+
+生成回放數據
+python compress.py --name <simulation-name>
+运行结束后将在results/compressed/<simulation-name>目录下生成回放數據文件movement.json。同时还将生成simulation.md，以时间线方式呈现每个智能体的状态及对话内容。
+
+回放

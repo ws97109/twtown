@@ -1,0 +1,9 @@
+modules/memory完成
+modules/agent.py完成
+modules/prompt/scratch.py完成
+start.py - 包含personas列表和啟動提示
+compress.py - 生成报告和处理數據
+replay.py - 回放功能的用户界面提示
+data/prompts 完成
+frontend/templates 完成
+frontend/agent 完成
